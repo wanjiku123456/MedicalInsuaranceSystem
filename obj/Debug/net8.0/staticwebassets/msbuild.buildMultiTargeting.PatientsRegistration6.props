@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PatientsRegistration6.props" />
+</Project>

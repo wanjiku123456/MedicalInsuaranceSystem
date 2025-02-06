@@ -1,0 +1,155 @@
+﻿@page "/patientregistration6"
+@attribute [StreamRendering]
+
+<PageTitle>Patient Registration</PageTitle>
+
+<div class="hero-section">
+    <h1>Patient Registration</h1>
+</div>
+
+<div class="container">
+    <form id="patient-form">
+        <div class="firstname">
+            <label for="firstName">First Name *</label> <br />
+            <input type="text" id="firstName" name="firstName" required>
+            
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+        </div>
+        <br />
+
+        <div class="address">
+            <label for="address">Street Address *</label> <br />
+            <input type="text" id="address" name="address" required>
+        </div>
+
+        <div class="address2">
+            <label for="address2">Address Line 2</label> <br />
+            <input type="text" id="address2" name="address2">
+        </div>
+        <br />
+
+        <div class="country-section">
+            <label for="country">Country *</label> <br />
+            <input type="text" id="country" name="country" required>
+            
+            <label for="county">County *</label>
+            <select id="county" name="county" required>
+                <option value="">Select County</option>
+                <option value="Nrb">Nairobi</option>
+                <option value="Kmbu">Kiambu</option>
+                <option value="Nkr">Nakuru</option>
+                <option value="Mbs">Mombasa</option>
+            </select>
+        </div>
+        <br />
+
+        <div class="contact-info">
+            <label for="zip">ZIP Code *</label> <br />
+            <input type="text" id="zip" name="zip" required pattern="\d{5}" title="Enter a valid 5-digit ZIP Code">
+            
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required pattern="\d{10}" title="Enter a 10-digit phone number">
+        </div>
+        <br />
+
+        <div class="email-address">
+            <label for="email">Email Address *</label> <br />
+            <input type="email" id="email" name="email" required> <br />
+        </div>
+
+        <div class="personal-info">
+            <label for="ssn">Social Security Number *</label> <br />
+            <input type="text" id="ssn" name="ssn" required pattern="\d{3}-\d{2}-\d{4}" title="Format: XXX-XX-XXXX">
+            
+            <label for="dob">Date of Birth *</label>
+            <input type="date" id="dob" name="dob" required /> <br />
+        </div>
+
+        <div class="radio-group">
+            <label>Marital Status *</label>
+            <input type="radio" id="single" name="maritalStatus" value="Single" required>
+            <label for="single">Single</label>
+
+            <input type="radio" id="married" name="maritalStatus" value="Married">
+            <label for="married">Married</label>
+
+            <input type="radio" id="divorced" name="maritalStatus" value="Divorced">
+            <label for="divorced">Divorced</label>
+
+            <input type="radio" id="widowed" name="maritalStatus" value="Widowed">
+            <label for="widowed">Widowed</label>
+        </div>
+        <br />
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<style>
+    .container {
+        background-color:white;
+        padding: 20px;
+    }
+
+    .hero-section {
+        background-image: url("/images/hospital1.jpeg");
+        background-position: top,right;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    .hero-section img {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .firstname, .address, .address2, .country-section, 
+    .contact-info, .email-address, .personal-info {
+        color: darkblue;
+        margin-bottom: 20px;
+    }
+
+    .radio-group {
+        margin-top: 25px;
+        color: darkblue;
+        display: flex;
+        align-items: center;
+        gap: 4px; /* This creates the small space between radio and label */
+
+    } 
+
+    input {
+        width: 30%;
+    }
+
+    label, input {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    button[type="submit"] {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: darkblue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: navy;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 20px; /* Space between form groups */
+        margin-bottom: 20px;
+    }
+
+    
+ 
+</style>
