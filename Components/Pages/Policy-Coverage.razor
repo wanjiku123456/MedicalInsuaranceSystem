@@ -1,0 +1,101 @@
+﻿@page "/policy-coverage"
+
+<h3> Policy &amp; Coverage</h3>
+
+<div class="policy-container">
+    <div class="main-sections">
+        <h4>Main Sections:</h4>
+        <ul>
+            <li>User's active insurance plan details</li>
+            <li>Coverage breakdown (inpatient, outpatient, maternity, etc.)</li>
+            <li>Policy documents (downloadable PDFs)</li>
+        </ul>
+    </div>
+
+    <div class="plan-details">
+        <h4>Active Insurance Plan Details</h4>
+        <p><strong>Plan Name:</strong> Comprehensive Plan</p>
+        <p><strong>Policy Number:</strong> A1B2C3D4</p>
+        <p><strong>Effective Date:</strong> January 1, 2024</p>
+        <p><strong>Expiry Date:</strong> December 31, 2024</p>
+    </div>
+
+    <div class="coverage-breakdown">
+        <h4>Coverage Breakdown</h4>
+        <div class="coverage-item">
+            <h5>Inpatient</h5>
+            <p>Coverage Limit: ksh1,000,000</p>
+            <p>Co-pay: ksh1000</p>
+        </div>
+        <div class="coverage-item">
+            <h5>Outpatient</h5>
+            <p>Coverage Limit: ksh50,000</p>
+            <p>Co-pay: ksh2000</p>
+        </div>
+        <div class="coverage-item">
+            <h5>Maternity</h5>
+            <p>Coverage Limit:ksh10,000</p>
+        </div>
+    </div>
+
+    <div class="policy-documents">
+        <h4>Policy Documents</h4>
+        <ul>
+            <li><a href="policy_document_2024.pdf" download>Policy Document 2024</a></li>
+            <li><a href="summary_of_benefits.pdf" download>Summary of Benefits</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<style>
+    .policy-container {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px; /* Space between sections */
+        padding: 20px;
+    }
+
+    .main-sections {
+        /* Styles for the main sections list */
+    }
+
+    .plan-details, .coverage-breakdown, .policy-documents {
+        border: 1px solid #ccc; /* Add a border around each section */
+        padding: 15px;
+        border-radius: 5px; /* Rounded corners */
+    }
+
+    .coverage-breakdown {
+        display: flex; /* Arrange coverage items horizontally */
+        flex-wrap: wrap; /* Allow wrapping to the next line */
+        gap: 20px;
+    }
+
+    .coverage-item {
+        flex: 1 0 200px; /* Each item takes up at least 200px */
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    h3, h4 {
+        color: #333; /* Darker heading color */
+    }
+
+    a {
+        color: #007bff; /* Blue link color */
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    {
+        flex-direction: column; /* Stack coverage items vertically on smaller screens */
+    }
+
+    }
+</style>

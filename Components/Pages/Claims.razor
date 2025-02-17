@@ -1,0 +1,137 @@
+﻿@page "/claims"
+
+<h3>File a Claim</h3>
+
+<div class="claims-container">
+    <p>Please fill out the form below to submit your claim.  Ensure all required fields are completed and supporting documentation is attached.</p>
+
+    <form>
+        <div class="form-group">
+            <label for="policyNumber">Policy Number:</label>
+            <input type="text" id="policyNumber" name="policyNumber" required>
+        </div>
+
+        <div class="form-group">
+            <label for="claimantName">Claimant Name:</label>
+            <input type="text" id="claimantName" name="claimantName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dateOfService">Date of Service:</label>
+            <input type="date" id="dateOfService" name="dateOfService" required>
+        </div>
+
+        <div class="form-group">
+            <label for="providerName">Provider Name:</label>
+            <input type="text" id="providerName" name="providerName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description of Services:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="amountClaimed">Amount Claimed:</label>
+            <input type="number" id="amountClaimed" name="amountClaimed" step="0.01" required>
+        </div>
+
+        <div class="form-group">
+            <label for="supportingDocs">Supporting Documents:</label>
+            <input type="file" id="supportingDocs" name="supportingDocs" multiple>
+            <small>Accepted file types: .pdf, .jpg, .png</small>
+        </div>
+
+        <button type="submit" class="submit-button">Submit Claim</button>
+    </form>
+
+    <div class="claims-faq">
+        <h4>Frequently Asked Questions</h4>
+        <details>
+            <summary>How do I check the status of my claim?</summary>
+            <p>You can check the status of your claim by logging into your account or contacting our customer service team.</p>
+        </details>
+        <details>
+            <summary>What documents do I need to submit with my claim?</summary>
+            <p>You will typically need to submit receipts, invoices, and any other relevant medical documentation.</p>
+        </details>
+    </div>
+</div>
+
+<style>
+    .claims-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        gap: 20px;
+        background-image: url("/images/aboutus.jpg") 
+       
+        
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="number"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+    }
+
+    input[type="file"] {
+        margin-top: 5px;
+       
+    }
+
+    .submit-button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .claims-faq {
+        margin-top: 20px;
+        border-top: 5px solid black;
+        padding-top: 20px;
+        border-radius:4px;
+    }
+
+        .claims-faq details {
+            margin-bottom: 10px;
+            border: 5px solid black;
+            border-radius: 4px;
+            padding: 10px;
+        }
+
+        .claims-faq summary {
+            cursor: pointer;
+            font-weight: bold;
+            list-style: none;
+        }
+
+        .claims-faq details[open] summary::after {
+            content: "▼";
+            margin-left: 10px;
+        }
+
+        .claims-faq summary::after {
+            content: "▶";
+            margin-left: 10px;
+        }
+</style>

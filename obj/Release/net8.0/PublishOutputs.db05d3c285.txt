@@ -1,0 +1,7 @@
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\PatientsRegistration6.exe
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\PatientsRegistration6.dll
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\PatientsRegistration6.deps.json
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\PatientsRegistration6.runtimeconfig.json
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Release\net8.0\PubTmp\Out\PatientsRegistration6.pdb

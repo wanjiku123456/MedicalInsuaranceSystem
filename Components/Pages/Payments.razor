@@ -1,0 +1,150 @@
+﻿@page "/payments"
+
+<div class="container mx-auto p-4">
+    <h1 class="text-2xl font-bold mb-6">Payments & Billing</h1>
+
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-xl font-semibold mb-4">Pending Payments</h2>
+        <table class="w-full">
+            <thead>
+                <tr class="bg-gray-100">
+                    <th class="px-4 py-2 text-left">Invoice #</th>
+                    <th class="px-4 py-2 text-left">Amount</th>
+                    <th class="px-4 py-2 text-left">Due Date</th>
+                    <th class="px-4 py-2 text-left">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var payment in PendingPayments)
+                {
+                    <tr class="border-b">
+                        <td class="px-4 py-2">@payment.InvoiceNumber</td>
+                        <td class="px-4 py-2">$@payment.Amount</td>
+                        <td class="px-4 py-2">@payment.DueDate.ToShortDateString()</td>
+                        <td class="px-4 py-2">
+                            <button @onclick="() => PayNow(payment.InvoiceNumber)" class="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">
+                                Pay Now
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+   
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-xl font-semibold mb-4">Payment History</h2>
+        <ul>
+            @foreach (var payment in PaymentHistory)
+            {
+                <li>@payment.Date.ToShortDateString() - Invoice #@payment.InvoiceNumber - $@payment.Amount - @payment.Status</li>
+            }
+        </ul>
+    </div>
+
+
+   
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-xl font-semibold mb-4">Payment Methods</h2>
+        <ul>
+            @foreach (var method in SavedPaymentMethods)
+            {
+                <li>@method.Type - **** **** **** @method.LastFour <button @onclick="() => RemovePaymentMethod(method.Id)" class="text-red-500 hover:text-red-700">Remove</button></li>
+            }
+        </ul>
+
+        <h3>Add New Payment Method</h3>
+        <button @onclick="AddPaymentMethod" class="bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Add Payment Method</button>
+
+    </div>
+</div>
+
+@code {
+    
+    private List<PendingPayment> PendingPayments { get; set; } = new()
+    {
+        new PendingPayment { InvoiceNumber = "INV001", Amount = 19.99m, DueDate = DateTime.Now.AddDays(7) },
+        new PendingPayment { InvoiceNumber = "INV002", Amount = 29.99m, DueDate = DateTime.Now.AddDays(14) }
+    };
+
+    private List<PaymentHistoryItem> PaymentHistory { get; set; } = new()
+    {
+        new PaymentHistoryItem { Date = DateTime.Now.AddDays(-10), InvoiceNumber = "INV001", Amount = 19.99m, Status = "Completed" },
+        new PaymentHistoryItem { Date = DateTime.Now.AddDays(-5), InvoiceNumber = "INV002", Amount = 29.99m, Status = "Completed" }
+    };
+
+    private List<PaymentMethod> SavedPaymentMethods { get; set; } = new()
+    {
+        new PaymentMethod { Id = "1", Type = "Visa", LastFour = "4242" },
+        new PaymentMethod { Id = "2", Type = "Mastercard", LastFour = "5151" }
+    };
+
+
+    private async Task PayNow(string invoiceNumber)
+    {
+        Console.WriteLine($"Paying invoice: {invoiceNumber}");
+    }
+
+    private async Task DownloadReceipt(string invoiceNumber)
+    {
+        Console.WriteLine($"Downloading receipt for invoice: {invoiceNumber}");
+    }
+
+    private async Task AddPaymentMethod()
+    {
+        Console.WriteLine("Adding payment method");
+    }
+
+    private async Task RemovePaymentMethod(string methodId)
+    {
+        Console.WriteLine($"Removing payment method: {methodId}");
+    }
+
+
+    public class PendingPayment
+    {
+        public string InvoiceNumber { get; set; }
+        public decimal Amount { get; set; }
+        public DateTime DueDate { get; set; }
+    }
+
+    public class PaymentHistoryItem
+    {
+        public DateTime Date { get; set; }
+        public string InvoiceNumber { get; set; }
+        public decimal Amount { get; set; }
+        public string Status { get; set; }
+    }
+
+    public class PaymentMethod
+    {
+        public string Id { get; set; }
+        public string Type { get; set; }
+        public string LastFour { get; set; }
+    }
+}
+
+<style>
+    
+    .container { /* Example */
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+</style>

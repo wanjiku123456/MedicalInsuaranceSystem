@@ -1,0 +1,1464 @@
+{
+  "Version": 1,
+  "Hash": "5QJj/wDhO1/iJDg1Q++rdNDmQEN90VEKD/uUZU5YEzo=",
+  "Source": "PatientsRegistration6",
+  "BasePath": "_content/PatientsRegistration6",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PatientsRegistration6\\wwwroot",
+      "Source": "PatientsRegistration6",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\bundle\\PatientsRegistration6.styles.css",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "PatientsRegistration6#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "onuomr5rby",
+      "Integrity": "NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\bundle\\PatientsRegistration6.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PatientsRegistration6.bundle.scp.css",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "PatientsRegistration6#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "onuomr5rby",
+      "Integrity": "NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PatientsRegistration6.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\app.css",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "da95v2qkru",
+      "Integrity": "u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\favicon.png",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\aboutus.jpg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/aboutus#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5q3b4gtioc",
+      "Integrity": "nfvVupkCAy5oqDnO3dsHIOEL8mUGebujef6UBP8FJJk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aboutus.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\hospital1.jpeg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/hospital1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hquqcgax5q",
+      "Integrity": "5zWl6EJrHNW2a0/lGOLWvgRks7yoRSDnuNgt11trxqA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hospital1.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kanini.jpg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/kanini#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pkk3w6qwyb",
+      "Integrity": "F93bx9Aiem70+Fn3bLuyD5GYROeY7VYiBXzTWrXkdmY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\kanini.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kinyua.jpeg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/kinyua#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1qhmflsg5k",
+      "Integrity": "x1mhDo5Pb9LSoSNwHiOwTFFTuJ2zYMV9afrurUYNaKw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\kinyua.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\logo.jpeg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/logo#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2mvb5tg32l",
+      "Integrity": "yu1OmKhqMyItV99NB7wQhS06z13inrX0CBvsNqDHpu0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\nurse.jpg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/nurse#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vynn07i4ih",
+      "Integrity": "F3VJr459evQDv3KxPF17uVMvZfQf6432dFpFfM3dgbg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nurse.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\patients2.jpeg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/patients2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dnha5hun1v",
+      "Integrity": "J986S4qcbVv+Oej30WSGUnKg/V2ol/J3WTyfhjQNKm8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\patients2.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\sarah.jpg",
+      "SourceId": "PatientsRegistration6",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\",
+      "BasePath": "_content/PatientsRegistration6",
+      "RelativePath": "images/sarah#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hg6hxw0kdf",
+      "Integrity": "D4QbH2BgMUfTYbTy1EC300JrDDj3SFc3T9gqj6ScOp8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sarah.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "app.da95v2qkru.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "da95v2qkru"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9qEka1auR7E3rd3/8/j8hkQdSOYj9bRJ4nYiFDR1sE="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 06:04:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/aboutus.5q3b4gtioc.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\aboutus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nfvVupkCAy5oqDnO3dsHIOEL8mUGebujef6UBP8FJJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 09:52:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5q3b4gtioc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aboutus.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nfvVupkCAy5oqDnO3dsHIOEL8mUGebujef6UBP8FJJk="
+        }
+      ]
+    },
+    {
+      "Route": "images/aboutus.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\aboutus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nfvVupkCAy5oqDnO3dsHIOEL8mUGebujef6UBP8FJJk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 09:52:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nfvVupkCAy5oqDnO3dsHIOEL8mUGebujef6UBP8FJJk="
+        }
+      ]
+    },
+    {
+      "Route": "images/hospital1.hquqcgax5q.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\hospital1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5zWl6EJrHNW2a0/lGOLWvgRks7yoRSDnuNgt11trxqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 08:03:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hquqcgax5q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hospital1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5zWl6EJrHNW2a0/lGOLWvgRks7yoRSDnuNgt11trxqA="
+        }
+      ]
+    },
+    {
+      "Route": "images/hospital1.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\hospital1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5zWl6EJrHNW2a0/lGOLWvgRks7yoRSDnuNgt11trxqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 08:03:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5zWl6EJrHNW2a0/lGOLWvgRks7yoRSDnuNgt11trxqA="
+        }
+      ]
+    },
+    {
+      "Route": "images/kanini.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kanini.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F93bx9Aiem70+Fn3bLuyD5GYROeY7VYiBXzTWrXkdmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 13:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F93bx9Aiem70+Fn3bLuyD5GYROeY7VYiBXzTWrXkdmY="
+        }
+      ]
+    },
+    {
+      "Route": "images/kanini.pkk3w6qwyb.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kanini.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55084"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F93bx9Aiem70+Fn3bLuyD5GYROeY7VYiBXzTWrXkdmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 13:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pkk3w6qwyb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/kanini.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F93bx9Aiem70+Fn3bLuyD5GYROeY7VYiBXzTWrXkdmY="
+        }
+      ]
+    },
+    {
+      "Route": "images/kinyua.1qhmflsg5k.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kinyua.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x1mhDo5Pb9LSoSNwHiOwTFFTuJ2zYMV9afrurUYNaKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 13:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qhmflsg5k"
+        },
+        {
+          "Name": "label",
+          "Value": "images/kinyua.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x1mhDo5Pb9LSoSNwHiOwTFFTuJ2zYMV9afrurUYNaKw="
+        }
+      ]
+    },
+    {
+      "Route": "images/kinyua.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kinyua.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107460"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x1mhDo5Pb9LSoSNwHiOwTFFTuJ2zYMV9afrurUYNaKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 13:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x1mhDo5Pb9LSoSNwHiOwTFFTuJ2zYMV9afrurUYNaKw="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.2mvb5tg32l.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yu1OmKhqMyItV99NB7wQhS06z13inrX0CBvsNqDHpu0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 11:44:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2mvb5tg32l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yu1OmKhqMyItV99NB7wQhS06z13inrX0CBvsNqDHpu0="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\logo.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yu1OmKhqMyItV99NB7wQhS06z13inrX0CBvsNqDHpu0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 11:44:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yu1OmKhqMyItV99NB7wQhS06z13inrX0CBvsNqDHpu0="
+        }
+      ]
+    },
+    {
+      "Route": "images/nurse.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\nurse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F3VJr459evQDv3KxPF17uVMvZfQf6432dFpFfM3dgbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 11:09:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F3VJr459evQDv3KxPF17uVMvZfQf6432dFpFfM3dgbg="
+        }
+      ]
+    },
+    {
+      "Route": "images/nurse.vynn07i4ih.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\nurse.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F3VJr459evQDv3KxPF17uVMvZfQf6432dFpFfM3dgbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 11:09:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vynn07i4ih"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nurse.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F3VJr459evQDv3KxPF17uVMvZfQf6432dFpFfM3dgbg="
+        }
+      ]
+    },
+    {
+      "Route": "images/patients2.dnha5hun1v.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\patients2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J986S4qcbVv+Oej30WSGUnKg/V2ol/J3WTyfhjQNKm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 06:24:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dnha5hun1v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/patients2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J986S4qcbVv+Oej30WSGUnKg/V2ol/J3WTyfhjQNKm8="
+        }
+      ]
+    },
+    {
+      "Route": "images/patients2.jpeg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\patients2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J986S4qcbVv+Oej30WSGUnKg/V2ol/J3WTyfhjQNKm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 06:24:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J986S4qcbVv+Oej30WSGUnKg/V2ol/J3WTyfhjQNKm8="
+        }
+      ]
+    },
+    {
+      "Route": "images/sarah.hg6hxw0kdf.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\sarah.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4QbH2BgMUfTYbTy1EC300JrDDj3SFc3T9gqj6ScOp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 12:40:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hg6hxw0kdf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sarah.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4QbH2BgMUfTYbTy1EC300JrDDj3SFc3T9gqj6ScOp8="
+        }
+      ]
+    },
+    {
+      "Route": "images/sarah.jpg",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\sarah.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D4QbH2BgMUfTYbTy1EC300JrDDj3SFc3T9gqj6ScOp8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 07 Feb 2025 12:40:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D4QbH2BgMUfTYbTy1EC300JrDDj3SFc3T9gqj6ScOp8="
+        }
+      ]
+    },
+    {
+      "Route": "PatientsRegistration6.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PatientsRegistration6.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 12:22:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o="
+        }
+      ]
+    },
+    {
+      "Route": "PatientsRegistration6.onuomr5rby.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PatientsRegistration6.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 12:22:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "onuomr5rby"
+        },
+        {
+          "Name": "label",
+          "Value": "PatientsRegistration6.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o="
+        }
+      ]
+    },
+    {
+      "Route": "PatientsRegistration6.onuomr5rby.styles.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\bundle\\PatientsRegistration6.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 12:22:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "onuomr5rby"
+        },
+        {
+          "Name": "label",
+          "Value": "PatientsRegistration6.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o="
+        }
+      ]
+    },
+    {
+      "Route": "PatientsRegistration6.styles.css",
+      "AssetFile": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\bundle\\PatientsRegistration6.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Feb 2025 12:22:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NOPjEZg5Ym8Z9K0Qgz7LherVOFSb+H59hKdXYtmaC3o="
+        }
+      ]
+    }
+  ]
+}

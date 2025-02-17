@@ -1,0 +1,136 @@
+﻿@page "/plans"
+
+<div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold text-center mb-8">Choose Your Insurance Plan</h1>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+        <!-- Bronze Plan -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div class="text-center">
+                <h2 class="text-2xl font-semibold text-bronze mb-4">Bronze Plan</h2>
+                <p class="text-3xl font-bold mb-4">ksh100000<span class="text-sm text-gray-600">/month</span></p>
+            </div>
+            <ul class="space-y-3 mb-6">
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Basic coverage
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    ksh5,000 deductible
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    60% coinsurance
+                </li>
+            </ul>
+            <button class="w-full bg-bronze text-white py-2 rounded-lg hover:bg-bronze-dark transition-colors">
+                Select Bronze
+            </button>
+        </div>
+
+        <!-- Silver Plan -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div class="text-center">
+                <h2 class="text-2xl font-semibold text-silver mb-4">Silver Plan</h2>
+                <p class="text-3xl font-bold mb-4">ksh250000<span class="text-sm text-gray-600">/month</span></p>
+            </div>
+            <ul class="space-y-3 mb-6">
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Enhanced coverage
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    ksh2,500 deductible
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    70% coinsurance
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Dental basic coverage
+                </li>
+            </ul>
+            <button class="w-full bg-silver text-white py-2 rounded-lg hover:bg-silver-dark transition-colors">
+                Select Silver
+            </button>
+        </div>
+
+        <!-- Gold Plan -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div class="text-center">
+                <h2 class="text-2xl font-semibold text-gold mb-4">Gold Plan</h2>
+                <p class="text-3xl font-bold mb-4">ksh1000000<span class="text-sm text-gray-600">/month</span></p>
+            </div>
+            <ul class="space-y-3 mb-6">
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Premium coverage
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    ksh100000 deductible
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    80% coinsurance
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Comprehensive dental
+                </li>
+                <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Vision coverage
+                </li>
+            </ul>
+            <button class="w-full bg-gold text-white py-2 rounded-lg hover:bg-gold-dark transition-colors">
+                Select Gold
+            </button>
+        </div>
+    </div>
+</div>
+
+@code {
+    // Add any required code-behind logic here
+}
+
+<style>
+    .text-bronze {
+        color: #CD7F32;
+    }
+
+    .bg-bronze {
+        background-color: #CD7F32;
+    }
+
+    .bg-bronze-dark {
+        background-color: #B87333;
+    }
+
+    .text-silver {
+        color: #C0C0C0;
+    }
+
+    .bg-silver {
+        background-color: #C0C0C0;
+    }
+
+    .bg-silver-dark {
+        background-color: #A8A8A8;
+    }
+
+    .text-gold {
+        color: #FFD700;
+    }
+
+    .bg-gold {
+        background-color: #FFD700;
+    }
+
+    .bg-gold-dark {
+        background-color: #DAA520;
+    }
+</style>

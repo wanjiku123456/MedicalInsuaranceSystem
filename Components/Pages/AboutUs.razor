@@ -1,0 +1,113 @@
+﻿@page "/aboutus"
+
+<h3>About Meditrust</h3>
+
+<div class="about-container">
+    <div class="image-section">
+        <img src="images/logo.jpeg" alt="Medi Trust" class="hospital-image">
+    </div>
+
+    <div class="text-section">
+        <h4>Our Mission</h4>
+        <p>To make health insurance accessible and affordable, empowering individuals and families to take control of their health.</p>
+
+        <h4>Our Vision</h4>
+        <p>To be the leading medical insuarance provider in the region, recognized for excellence in patient care, innovation, and community engagement.</p>
+
+        <h4>Our Values</h4>
+        <ul>
+            <li>Compassion</li>
+            <li>Integrity</li>
+            <li>Excellence</li>
+            <li>Respect</li>
+            <li>Innovation</li>
+        </ul>
+
+        <h4>Our History</h4>
+        <p> Meditrust was founded in 2010 by Mr. William, a dedicate man who believed in accessible healthcare for all.  What started as small insuarance has grown into a modern one serving thousands of clients each year. We are committed to continuing his legacy of caring for our community.</p>
+
+        <h4>Meet Our Team </h4>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="images/kinyua.jpeg" alt="Dr.Kinyua" class="team-image">
+                <h5>Dr.Kinyua</h5>
+                <p>Cardiologist</p>
+            </div>
+            <div class="team-member">
+                <img src="images/sarah.jpg" alt="Dr. Siamanta" class="team-image">
+                <h5>Dr. Siamanta</h5>
+                <p>Gynacologist</p>
+            </div>
+            <div class="team-member">
+                <img src="images/kanini.jpg" alt="Dr. Sarah" class="team-image">
+                <h5>Dr. Sarah</h5>
+                <p>Pedetrician</p>
+            </div>
+            <div class="team-member">
+                <img src="images/nurse.jpg" alt="Nurse Mary" class="team-image">
+                <h5>Nurse Mary</h5>
+                <p>Head Nurse</p>
+            </div>
+        </div>
+        <p>And many more dedicated professionals!</p>
+    </div>
+</div>
+
+<style>
+    .about-container {
+        display: flex; 
+        flex-wrap: wrap; 
+        padding: 40px;
+        gap: 20px;
+        background-image:url("/images/aboutus.jpg");
+        
+    }
+
+    .image-section {
+        flex: 1; /* Takes up available space */
+        text-align: center; /* Center the image */
+    }
+
+    .hospital-image { /* Styles for the image itself */
+        max-width:10vw; /* Ensures image doesn't overflow container */
+        height: 10vh; /* Maintains aspect ratio */
+        border-radius: 4px; /* Optional: Rounded corners */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Subtle shadow */
+    }
+ }
+    
+
+    .text-section {
+        flex: 2; /* Takes up more space than image */
+    }
+
+        .text-section h4 {
+            margin-bottom: 10px;
+            color: #007bff; /* Example: Use your hospital's color */
+        }
+
+        .text-section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .team-member {
+        text-align: center;
+        flex: 1 1 200px; /* Adjust as needed */
+    }
+
+    .team-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; /* Make circular */
+        object-fit: cover; /* Prevent image distortion */
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+</style>

@@ -1,3 +1,9 @@
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.AssemblyInfoInputs.cache
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.AssemblyInfo.cs
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.csproj.CoreCompileInputs.cache
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.sourcelink.json
 C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\appsettings.json
 C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\PatientsRegistration6.staticwebassets.runtime.json
@@ -7,11 +13,6 @@ C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\PatientsReg
 C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\PatientsRegistration6.runtimeconfig.json
 C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\PatientsRegistration6.dll
 C:\Users\Melissa\source\repos\PatientsRegistration6\bin\Debug\net8.0\PatientsRegistration6.pdb
-C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.AssemblyInfoInputs.cache
-C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.AssemblyInfo.cs
-C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.csproj.CoreCompileInputs.cache
-C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\PatientsRegistration6.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\Melissa\source\repos\PatientsRegistration6\obj\Debug\net8.0\scopedcss\bundle\PatientsRegistration6.styles.css

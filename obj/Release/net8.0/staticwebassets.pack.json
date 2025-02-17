@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\PatientsRegistration6.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PatientsRegistration6.onuomr5rby.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\aboutus.jpg",
+      "PackagePath": "staticwebassets\\images\\aboutus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\hospital1.jpeg",
+      "PackagePath": "staticwebassets\\images\\hospital1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kanini.jpg",
+      "PackagePath": "staticwebassets\\images\\kanini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\kinyua.jpeg",
+      "PackagePath": "staticwebassets\\images\\kinyua.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\logo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\nurse.jpg",
+      "PackagePath": "staticwebassets\\images\\nurse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\patients2.jpeg",
+      "PackagePath": "staticwebassets\\images\\patients2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Melissa\\source\\repos\\PatientsRegistration6\\wwwroot\\images\\sarah.jpg",
+      "PackagePath": "staticwebassets\\images\\sarah.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PatientsRegistration6.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.PatientsRegistration6.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.PatientsRegistration6.props",
+      "PackagePath": "build\\PatientsRegistration6.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PatientsRegistration6.props",
+      "PackagePath": "buildMultiTargeting\\PatientsRegistration6.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.PatientsRegistration6.props",
+      "PackagePath": "buildTransitive\\PatientsRegistration6.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

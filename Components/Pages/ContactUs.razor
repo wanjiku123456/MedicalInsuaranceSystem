@@ -1,0 +1,243 @@
+﻿@page "/contactus"
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+
+
+<div class="contact-container">
+    <h1 class="page-title">Contact Us</h1>
+
+    <div class="contact-wrapper">
+        
+        <div class="contact-form">
+            <EditForm Model="@contactForm" OnValidSubmit="@HandleSubmit">
+                <DataAnnotationsValidator />
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <InputText id="name" class="form-control" @bind-Value="contactForm.Name" />
+                    <ValidationMessage For="@(() => contactForm.Name)" class="validation-message" />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <InputText id="email" class="form-control" @bind-Value="contactForm.Email" />
+                    <ValidationMessage For="@(() => contactForm.Email)" class="validation-message" />
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <InputText id="subject" class="form-control" @bind-Value="contactForm.Subject" />
+                    <ValidationMessage For="@(() => contactForm.Subject)" class="validation-message" />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <InputTextArea id="message" class="form-control" @bind-Value="contactForm.Message" rows="5" />
+                    <ValidationMessage For="@(() => contactForm.Message)" class="validation-message" />
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </EditForm>
+        </div>
+
+        
+        <div class="contact-info">
+            <div class="info-section">
+                <h3>Our Office</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    NorthStar Complex, lenana rd, Kilimani, Nairobi, Kenya
+                <br /> Kenya 
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone">0700287654/0700423965</i>
+                   
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    meditrust18@gmail.com
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h3>Business Hours</h3>
+                <div class="info-item">
+                    Monday - Friday: 9:00 AM - 6:00 PM
+                    <br />Saturday: 10:00 AM - 4:00 PM
+                    <br />Sunday: Closed
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808324939528!2d36.78079437373211!3d-1.2892285986985137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a79666e9a5%3A0x4be9f57a214e2fdb!2sAnkole%20Grill%20Kilimani!5e0!3m2!1sen!2ske!4v1739448394277!5m2!1sen!2ske" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+   
+    .contact-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .page-title {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+   
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    
+    .contact-form {
+        background: #f8f9fa;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+        }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+        }
+
+    .validation-message {
+        color: #dc3545;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .submit-btn {
+        background-color: #007bff;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+
+   
+    .contact-info {
+        background: #f8f9fa;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-section {
+        margin-bottom: 20px;
+    }
+
+        .info-section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+    .info-item {
+        margin-bottom: 10px;
+        color: #666;
+    }
+
+        .info-item i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+    
+    .map-container {
+        margin-top: 20px;
+        height: 250px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+    @@media (max-width: 768px) {
+        .contact-wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    
+</style>
+
+@code {
+    private ContactForm contactForm = new();
+
+    private async Task HandleSubmit()
+    {
+        // Add your form submission logic here
+        // For example:
+        // await EmailService.SendEmail(contactForm);
+        await Task.CompletedTask; // Placeholder for actual implementation
+    }
+
+    public class ContactForm
+    {
+        [Required(ErrorMessage = "Name is required")]
+        [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters")]
+        public string? Name { get; set; }
+
+        [Required(ErrorMessage = "Email is required")]
+        [EmailAddress(ErrorMessage = "Please enter a valid email address")]
+        public string? Email { get; set; }
+
+        [Required(ErrorMessage = "Subject is required")]
+        [StringLength(200, ErrorMessage = "Subject cannot exceed 200 characters")]
+        public string? Subject { get; set; }
+
+        [Required(ErrorMessage = "Message is required")]
+        [StringLength(1000, ErrorMessage = "Message cannot exceed 1000 characters")]
+        public string? Message { get; set; }
+    }
+}
+       

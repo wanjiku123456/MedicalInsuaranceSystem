@@ -1,7 +1,178 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<div class="main-container">
+    <nav class="navbar"> 
+        <div class="logo"></div>
+        <div class="nav-links">
+            <a href="/" class="active">Home</a>
+            <a href="/providers">Providers</a>
+            <a href="/claims">Claims</a>
+            <a href="/AboutUs">About Us</a>
+            <a href="/ContactUs">Contact Us</a>
+             <a href="/policy-coverage">Policy-Coverage</a>
+             <a href="/payments">Payments</a>
+            <a href="/patientregistration6">Registration</a>
+             <a href="/login">Login</a>
+              <a href="/plans">Plans</a>
+        </div><br />
+    </nav>
 
-<h1>Hello, world!</h1>
+    <div class="hero">
+        <h1>MEDITRUST</h1>
+        <h2>Protecting Your Health, Securing Your Future</h2>
+        <p>Comprehensive and affordable health insurance plans for you and your family.</p>
+        
+    </div><br />
 
-Welcome to your new app.
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>At Medi Trust, we're dedicated to providing peace of mind through reliable and accessible health insurance.  We believe everyone deserves quality healthcare, and we strive to make it affordable and easy to understand.</p>
+    </div><br />
+
+    <div class="section" id="plans">
+        <h2>Our Plans</h2>
+        <div class="services-grid">
+            @* Reusing the grid structure for plans *@
+            <div class="service-card">
+                <h3>Bronze Plan</h3>
+                <p>Basic coverage for essential healthcare needs.  Ideal for budget-conscious individuals.</p>
+                <ul>
+                    <li>Low monthly premium</li>
+                    <li>Preventive care coverage</li>
+                    <li>Limited specialist visits</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>Silver Plan</h3>
+                <p>Balanced coverage with more benefits.  A good choice for families.</p>
+                <ul>
+                    <li>Moderate monthly premium</li>
+                    <li>Expanded specialist network</li>
+                    <li>Prescription drug coverage</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <h3>Gold Plan</h3>
+                <p>Comprehensive coverage with maximum benefits.  For those seeking the highest level of care.</p>
+                <ul>
+                    <li>Higher monthly premium</li>
+                    <li>Extensive network of providers</li>
+                    <li>Comprehensive coverage for all services</li>
+                </ul>
+            </div>
+        </div>
+    </div> <br />
+
+    <div class="section" id="providers">
+        <h2>Find a Provider</h2>
+        <p>Here are some of our doctors and specialists</p>
+        <div class="doctors-grid">
+            <div class="doctor-card">
+                <div class="doctor-img">
+                    <img src="/images/kinyua.jpeg" alt="Dr.Kinyua" /> 
+                </div>
+                <h3>Dr. Kinyua</h3>
+                <p>General Practitioner</p>
+            </div>
+            <div class="doctor-card">
+                <div class="doctor-img">
+                    <img src="/images/sarah.jpg" alt="Dr.Siamanta" /> 
+                </div>
+                <h3>Dr.Siamanta</h3>
+                <p>Cardiologist</p>
+            </div>
+        </div>
+    </div> <br />
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: info@yourhealthcovered.com</p>
+            <p>Phone: (555) 555-5555</p>
+            <p>Address: 456 Insurance Blvd, Healthville</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Your Health Covered. All rights reserved.</p>
+</footer>
+
+<style>
+  
+    .hero{
+    background-color:slateblue;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    }
+
+.cta-button {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 1rem;
+         }
+    .provider-search { /* Style the provider search area */
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+        .provider-search input {
+            flex: 1;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+        }
+
+        .provider-search button {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+         .main-container {
+        font-family: Arial, sans-serif;
+        background-image:url("/images/aboutus.jpg");
+        font-size:larger;
+       
+    }
+
+    .services-grid, .doctors-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .service-card, .doctor-card {
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 5px;
+        text-align:left;
+    }
+
+    .doctor-img {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 auto 1rem;
+        /* background-image: url("/images/sarah.jpg"); */
+        background-size: cover; /* Ensures image covers entire div */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents image from repeating */
+        overflow: hidden;
+        object-fit: contain;
+    }
+
+        .doctor-img img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+         
+        }
+   </style>
